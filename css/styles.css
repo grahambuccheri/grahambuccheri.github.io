@@ -6,10 +6,11 @@
     --bold-font: 700;
     --bolder-font: 900;
     --bg-color: rgb(57, 57, 57)
-    --primary-color: #646464;
+    --primary-color: #b8b8b8;
+    --primary-color: #b8b8b8;
     --secondary-color: #b8b8b8;
     --third-color: #8c00ff;
-    --secondary-shadow: #dcdcdc;
+    --secondary-shadow: #3c0000;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -94,10 +95,12 @@ html {
 }
 
 .bio {
+    background-color: rgb(108, 108, 108);
     width: 50rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 10px 2px #cfcfcf
+   
 }
 
 .bio h1 {
@@ -131,7 +134,7 @@ html {
 }
 
 .cs-project {
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(108, 108, 108);
   border-radius: 20px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
