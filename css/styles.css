@@ -92,6 +92,7 @@ html {
 .hero img {
   height: 10rem;
   width: 10rem;
+  border-radius: 30%;
 }
 
 .bio {
