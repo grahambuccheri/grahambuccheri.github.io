@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import 'animate.css';
+@keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@-moz-keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@-webkit-keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@-o-keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@-ms-keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@keyframes typing{
+  from {width: 0%;}
+  to{ width: 100%}
+}
+@keyframes blink-caret {
+  from,to {border-color: transparent;}
+  50%{ border-color: white};
+}
 :root {
     --font-family: "Open Sans", sans-serf;
     --normal-font: 400;
@@ -41,6 +69,8 @@ html {
   
   nav a:hover {
     color: var(--third-color);
+    font-size: larger;
+    font-weight: bolder;
   }
   
   body {
@@ -66,7 +96,8 @@ html {
   }
 
   nav h1 {
-    color: var(--primary-color);
+    color: #529855;
+    font-family:'Courier New', Courier, monospace;
   }
   
   nav a {
@@ -128,10 +159,18 @@ html {
 .bio a {
     color: var(--secondary-color);
     transition: var(--transition);
+    font-family: 'Courier New', Courier, monospace;
   }
 
 .bio a:hover {
     color: var(--third-color);
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bio b{
+  font-size: larger;
+  color: #91bccf;
 }
 
 .project {
@@ -139,6 +178,25 @@ html {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+}
+.project h2{
+  background-color: #1e1e1e;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #4d6c3a;
+  overflow: hidden;
+  border-right: .15em white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40,end), blink-caret .75s step-end infinite;
 }
 
 .cs-project {
@@ -169,10 +227,21 @@ html {
 
 .cs-project small {
     color: var(--secondary-color);
+  
 }
 .cs-project img {
+  padding: 20px;
+  margin: 20px;
+  width: auto;
+  height: auto;
+  scale: auto;
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 2%;
+  animation: fadeIn 2s;
+  
 }
+
 
 .imd-project {
   background-color: #ffffff;
