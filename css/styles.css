@@ -241,11 +241,6 @@ html {
   animation: fadeIn 2s;
   
 }
-.cs-project img:hover{
-  background-image: url(images/lowFire.png);
-  
-  
-}
 
 
 .imd-project {
