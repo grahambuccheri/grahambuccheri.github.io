@@ -29,7 +29,7 @@
   50%{ border-color: white};
 }
 :root {
-    --font-family: "Open Sans", sans-serf;
+    --font-family: "Verdana", sans -serf;
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
@@ -37,7 +37,7 @@
     --primary-color: #b8b8b8;
     --primary-color: #000000;
     --secondary-color: #5f552d;
-    --third-color: #ef98f7;
+    --third-color: #529855;
     --secondary-shadow: #5f552d;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
