@@ -243,7 +243,7 @@ html {
 }
 
 
-.imd-project {
+.umd-project {
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0 3px 10px var(--secondary-shadow);
@@ -253,23 +253,23 @@ html {
   margin-bottom: 1rem;
 }
 
-.imd-project h3 {
+.umd-project h3 {
     color: var(--primary-color);
 }
 
-.imd-project a {
+.umd-project a {
     color: var(--primary-color);
 }
 
-.imd-project a:link {
+.umd-project a:link {
     color: var(--primary-color);
 }
 
-.imd-project a:hover {
+.umd-project a:hover {
     color: var(--third-color);
 }
 
-.imd-project small {
+.umd-project small {
     color: var(--secondary-color);
 }
 .Coursework{
