@@ -232,7 +232,7 @@ html {
 }
 @media only screen and (max-width: 600px) {
   .cs-project video {
-    width: 100%;
+    width: 50%;
     height: auto; 
     
     max-height: 300px; 
