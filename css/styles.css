@@ -224,6 +224,21 @@ html {
   backdrop-filter: blur(15px); /* Adjust the blur intensity */
   -webkit-backdrop-filter: blur(15px);
 }
+.cs-project video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .cs-project video {
+    width: auto;
+    height: auto; 
+    scale: auto;
+    max-height: 300px; 
+  }
+}
+
 
 .cs-project h3 {
     color: var(--primary-color);
