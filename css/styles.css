@@ -325,4 +325,21 @@ html {
      word-break: break-word;
      overflow-wrap: break-word;
   }
+
+  /* Your existing styles */
+
+/* Mouse Trail Styles */
+.trail {
+  position: absolute;
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
 }
