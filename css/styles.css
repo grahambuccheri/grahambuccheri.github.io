@@ -223,6 +223,8 @@ html {
   margin-bottom: 2rem;
   backdrop-filter: blur(15px); /* Adjust the blur intensity */
   -webkit-backdrop-filter: blur(15px);
+  max-width: 100%;
+  overflow: hidden;
 }
 .cs-project video {
   top: 0;
@@ -234,8 +236,8 @@ html {
   .cs-project video {
     width: 50%;
     height: auto; 
-    
-    max-height: 300px; 
+    max-height: 300px;
+    max-width: 100%;
   }
 }
 
