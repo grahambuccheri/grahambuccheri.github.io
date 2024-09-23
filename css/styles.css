@@ -300,5 +300,7 @@ html {
   .project h2, .cs-project {
      margin: 0;
      padding: 1rem;
+     word-break: break-word;
+     overflow-wrap: break-word;
   }
 }
