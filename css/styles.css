@@ -179,6 +179,15 @@ html {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  white-space: normal; 
+  word-break: break-word; 
+  overflow-wrap: break-word
+}
+.project-header {
+  font-size: clamp(16px, 4vw, 32px); /* Shrinks the text size between 16px and 32px based on viewport width */
+  white-space: normal; /* Allow text to wrap */
+  word-break: break-word; /* Break long words if needed */
+  overflow-wrap: break-word; /* Alternative for handling long word wrapping */
 }
 .project h2{
   background-color: #1e1e1e;
@@ -198,6 +207,8 @@ html {
   margin: 0 auto;
   letter-spacing: .15em;
   animation: typing 3.5s steps(40,end), blink-caret .75s step-end infinite;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .cs-project {
