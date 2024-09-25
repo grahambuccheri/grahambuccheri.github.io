@@ -129,9 +129,11 @@ html {
 }
 
 .hero img {
-  height: 10rem;
-  width: 10rem;
-  border-radius: 30%;
+  height: 18rem;
+  width: auto;
+  border-radius: 20%;
+  transition: all 1s ease;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.5);
 }
 
 .bio {
