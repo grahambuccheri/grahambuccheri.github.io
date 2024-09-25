@@ -1,6 +1,6 @@
 /* Prevent scrolling during the loading phase */
 html, body {
-    overflow: hidden; /* Lock scrolling */
+   
     height: 100%;
     margin: 0;
     padding: 0;

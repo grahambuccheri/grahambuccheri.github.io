@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     loaderContainer.style.display = 'flex';
     loaderContainer.style.opacity = '1';
+    document.documentElement.style.overflow = 'hidden';
 
     const loadingInterval = setInterval(() => {
         progress += 1.5;
