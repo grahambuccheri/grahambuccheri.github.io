@@ -1,0 +1,39 @@
+/* Prevent scrolling during the loading phase */
+html, body {
+    overflow: hidden; /* Lock scrolling */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fullscreen black loading container */
+#loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Fullscreen */
+    background-color: black; /* Black background */
+    z-index: 1000;
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    opacity: 1; /* Fully visible */
+    transition: opacity 0.5s ease; /* Smooth fade-out */
+}
+
+/* Style for the loading bar */
+#loader-bar {
+    width: 0;
+    height: 20px; /* Thicker loading bar */
+    background-color: #4caf50; /* Green loading bar */
+    transition: width 0.4s ease; /* Smooth width expansion */
+    border-radius: 50%;
+    box-shadow: 0 0 30px 20px rgba(111, 241, 23, 0.5)
+}
+
+/* The body content will fade in after loading */
+body {
+    opacity: 1; /* Hide the body content initially */
+    transition: opacity 0.5s ease; /* Smooth fade-in */
+}
