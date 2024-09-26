@@ -227,6 +227,9 @@ html {
   -webkit-backdrop-filter: blur(15px);
   max-width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cs-project video {
   top: 0;
@@ -276,6 +279,9 @@ html {
   max-height: 100%;
   border-radius: 5%;
   animation: fadeIn 2s;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
