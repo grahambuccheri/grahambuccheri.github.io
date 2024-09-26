@@ -233,8 +233,6 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
 }
 @media only screen and (max-width: 600px) {
   .cs-project video {
@@ -276,8 +274,6 @@ html {
   max-height: 100%;
   border-radius: 5%;
   animation: fadeIn 2s;
-  justify-content: center;
-  align-items: center;
   
 }
 
