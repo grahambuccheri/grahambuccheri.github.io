@@ -228,6 +228,18 @@ html {
   max-width: 100%;
   overflow: hidden;
 }
+.cs-project .gif-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.cs-project .gif-container img {
+  width: 45%; 
+  height: auto;
+  transform: scale(1.1); 
+}
+
 .cs-project video {
   top: 0;
   left: 0;
